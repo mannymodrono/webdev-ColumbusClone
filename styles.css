@@ -1,1 +1,16 @@
-/* CSS code  */
+body{
+    margin: 0px;
+}
+
+#navbar {
+    height: 20px;
+}
+
+#navbarRight {
+    background-color: #10243B;
+}
+
+#navbarRight a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}

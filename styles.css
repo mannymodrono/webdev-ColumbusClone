@@ -3,14 +3,50 @@ body{
 }
 
 #navbar {
-    height: 20px;
+    background-color: #10243B;
+    padding: 20px 0px;
 }
 
-#navbarRight {
-    background-color: #10243B;
+#navbarRight, #navbarLeft, #mycchs{
+    display: inline;
 }
 
 #navbarRight a{
     font-family: 'Open Sans', sans-serif;
     color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.marist {
+    height: 50px;
+    width: 60px;
+}
+
+#navbarLeft a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#mycchs {
+    background-color: #005983;
+}
+
+#mycchs a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+
+.search {
+    width: 40px;
 }

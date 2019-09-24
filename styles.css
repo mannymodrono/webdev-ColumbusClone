@@ -1,10 +1,11 @@
 body{
     margin: 0px;
+    padding: 0px;
 }
 
 #navbar {
     background-color: #10243B;
-    padding: 20px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 #navbarRight, #navbarLeft, #mycchs{
@@ -14,39 +15,45 @@ body{
 #navbarRight a{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    padding: 0px 10px;
     text-decoration: none;
-    text-transform: capitalize;
     font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 10px;
 }
 
 .marist {
-    height: 50px;
-    width: 60px;
+    height: 40px;
+    /* width: 60px; */
+}
+
+#navbarLeft{
+    float: right;
 }
 
 #navbarLeft a{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    padding: 0px 10px;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    margin: 0 15px;
 }
 
-#mycchs {
+.mycchs {
     background-color: #005983;
 }
+
 
 #mycchs a{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    padding: 0px 10px;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
     border-right: 2px solid white;
 }
 
 .search {
-    width: 40px;
+    /* width: 40px; */
+    height: 30px;
 }
+

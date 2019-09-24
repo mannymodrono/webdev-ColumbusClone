@@ -23,7 +23,6 @@ body{
 
 .marist {
     height: 40px;
-    /* width: 60px; */
 }
 
 #navbarLeft{
@@ -53,7 +52,17 @@ body{
 }
 
 .search {
-    /* width: 40px; */
     height: 30px;
 }
 
+#hero {
+    background-image: url(images/graduation.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clogo {
+    padding-top: 60px;
+}

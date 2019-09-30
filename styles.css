@@ -5,6 +5,7 @@ body{
 
 #navbar {
     background-color: #10243B;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
     padding: 0px 0px 10px 0px;
 }
 
@@ -102,6 +103,7 @@ body{
     width: 100vw;
     height: 100px;
     background-color: #10243B;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
     text-align: center;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -150,4 +152,30 @@ body{
     margin: 0;
     width: 24.75%;
     text-align: center;
+}
+
+#cchsAtAGlance {
+    width: 100vw;
+    height: 800px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #00344C;
+    font-size: 140%;
+}
+
+.glance {
+    width: 310px;
+    height: 520px;
+    display: inline-block;
+}
+
+.red {
+    color: #ca0d33;
+    font-size: 120%;
+}
+
+.glanceText {
+    font-size: 80%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333333;
 }

@@ -156,11 +156,12 @@ body{
 
 #cchsAtAGlance {
     width: 100vw;
-    height: 800px;
+    height: 600px;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     color: #00344C;
     font-size: 140%;
+    text-transform: uppercase;
 }
 
 .glance {
@@ -178,4 +179,35 @@ body{
     font-size: 80%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333333;
+}
+
+#Honors {
+    background-color: #10243B;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 140%;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#Honors h1 {
+    padding-top: 50px;
+}
+
+#colleges  {
+    width: 100vw;
+    height: 280px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 140%;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+    border-top: 1px solid yellowgreen;
+    padding-bottom: 60px;
+}
+
+#colleges h5 {
+    padding-bottom: 50px;
 }

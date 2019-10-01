@@ -211,3 +211,22 @@ body{
 #colleges h5 {
     padding-bottom: 50px;
 }
+
+#footer {
+    width: 100wv;
+    height: 350px;
+    background: blue;
+}
+
+#footerNav {
+    width: 100wv;
+    height: 40px;
+    background: red;
+}
+
+#footerNavText {
+    background: green;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+}

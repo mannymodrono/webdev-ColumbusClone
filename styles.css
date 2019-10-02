@@ -215,18 +215,72 @@ body{
 #footer {
     width: 100wv;
     height: 350px;
-    background: blue;
+    background-color: #333333;
 }
 
 #footerNav {
     width: 100wv;
     height: 40px;
-    background: red;
+    background-color: #10243B;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
 }
 
 #footerNavText {
-    background: green;
-    width: 400px;
     height: 40px;
     margin: auto;
+    display: inline-block;
+}
+
+.footText {
+    color: #A3DDE8;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#connect {
+    margin: 100px;
+}
+
+#left {
+    display: inline-block;
+    padding-right: 120px;
+}
+
+#right {
+    display: inline-block;
+}
+
+.media {
+    padding: 0px 5px;
+}
+
+#footerTextContent {
+    margin: auto;
+}
+
+#adress {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    display: inline;
+}
+
+#addy {
+    width: 1000px;
+}
+
+#site {
+    width: 100px;
+    float: right;
+}
+
+#mission {
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+    display: inline-block;
+    width: 70%;
+    margin-right: 30px;
 }

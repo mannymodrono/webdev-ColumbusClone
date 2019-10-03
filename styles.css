@@ -206,6 +206,7 @@ body{
     background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
     border-top: 1px solid yellowgreen;
     padding-bottom: 60px;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg3.png);
 }
 
 #colleges h5 {
@@ -216,6 +217,8 @@ body{
     width: 100wv;
     height: 350px;
     background-color: #333333;
+    padding: 0;
+    margin: 0;
 }
 
 #footerNav {
@@ -228,7 +231,7 @@ body{
 #footerNavText {
     height: 40px;
     margin: auto;
-    display: inline-block;
+    width: 70%;
 }
 
 .footText {
@@ -240,12 +243,12 @@ body{
 }
 
 #connect {
-    margin: 100px;
+    margin: 50px;
 }
 
 #left {
     display: inline-block;
-    padding-right: 120px;
+    padding-right: 0px;
 }
 
 #right {
@@ -253,11 +256,12 @@ body{
 }
 
 .media {
-    padding: 0px 5px;
+    padding: 0px 0px;
 }
 
 #footerTextContent {
     margin: auto;
+    width: 70%;
 }
 
 #adress {
@@ -273,14 +277,21 @@ body{
 
 #site {
     width: 100px;
-    float: right;
+    position: absolute;
+    right: 340px;
+    top: 2890px;
 }
 
 #mission {
     color: lightgray;
     font-family: 'Open Sans', sans-serif;
-    font-size: 110%;
+    font-size: 90%;
     display: inline-block;
     width: 70%;
     margin-right: 30px;
+    line-height: 20px;
+}
+
+#seal {
+    padding: 0 30px;
 }
